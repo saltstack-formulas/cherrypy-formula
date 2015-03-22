@@ -4,6 +4,5 @@ include:
   - pip
 
 cherrypy_pip:
-  pip:
-    - installed
+  pip.installed:
     - name: {{ cherrypy.pip_pkg }}
